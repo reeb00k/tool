@@ -2,18 +2,8 @@
 function Invoke-CredentialsPhish
 {
 <#
-.SYNOPSIS
-Nishang script which opens a user credential prompt.
-
-.DESCRIPTION
-This payload opens a prompt which asks for user credentials and does not go away till valid local or domain credentials are entered in the prompt.
-
-.EXAMPLE
-PS > Invoke-CredentialsPhish
-
-.LINK
-http://labofapenetrationtester.blogspot.com/
-https://github.com/samratashok/nishang
+Author = "Syed Ali Abbas"
+special THanks to Anas Qurashi (Cyb3r Hunt3r)
 #>
 
 [CmdletBinding()]
