@@ -2,7 +2,7 @@
 function Invoke-CredentialsPhish
 {
 <#
-Author = "Syed Ali Abbas"
+Author = "Syed Ali Abbas & Anas Qurashi"
 special THanks to Anas Qurashi (Cyb3r Hunt3r)
 #>
 
